@@ -1,0 +1,83 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"YT老錢大事點"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.1"
+			],
+			"dash": [
+				"0.10.10"
+			]
+		}
+	},
+	"header": {
+		"name": "parcore",
+		"description": "make this is not easy so don't steal it , but if you ask me and put my name is ok !",
+		"min_engine_version": [
+			1,
+			20,
+			10
+		],
+		"uuid": "77e74e83-1c26-4260-8eb9-3f1b9f1d5872",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "0fb6b08c-a119-4a31-af0a-3b2a2d3dac49",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "f92d372f-b4ee-4b07-9bfc-fedf0eefad90",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "d270220f-89be-4a47-bf7c-398b65983099",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.4.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		},
+		{
+			"module_name": "@minecraft/server-admin",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-net",
+			"version": "1.0.0-beta"
+		}
+	]
+}

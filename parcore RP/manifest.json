@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"YT老錢大事點"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.1"
+			],
+			"dash": [
+				"0.10.10"
+			]
+		}
+	},
+	"header": {
+		"name": "parcore",
+		"description": "make this is not easy so don't steal it , but if you ask me and put my name is ok !",
+		"min_engine_version": [
+			1,
+			20,
+			10
+		],
+		"uuid": "d270220f-89be-4a47-bf7c-398b65983099",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "c0f42c35-a1f0-4f2e-a3b1-3cfed8501d68",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "77e74e83-1c26-4260-8eb9-3f1b9f1d5872",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
