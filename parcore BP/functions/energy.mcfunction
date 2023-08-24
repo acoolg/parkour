@@ -15,22 +15,3 @@ title @a[scores={energy=1}] actionbar §ep§8arcore_energy
 title @a[scores={energy=0}] actionbar §8parcore_energy
 scoreboard players set @a[scores={energy=15}] energy 14
 scoreboard players set @a[scores={energy=-1}] energy 0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
