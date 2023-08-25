@@ -8,12 +8,26 @@
 			"is_experimental": false
 		},
 		"component_groups": {
+			"parkour_high": {
+                "minecraft:behavior.knockback_roar": {
+					"attack_time": 0.5,
+					"cooldown_time": 0,
+					"duration": 1,
+					"knockback_damage": 0,
+					"knockback_horizontal_strength": 4,
+					"knockback_range": 4,
+					"knockback_vertical_strength": 7,
+					"track_target": false,
+					"knockback_height_cap": 9,
+					"on_roar_end": "parkour:end_knock"
+				}
+			},
 			"parkour_knock": {
 				"minecraft:behavior.knockback_roar": {
 					"priority": 1,
 					"duration": 1,
 					"attack_time": 0.5,
-					"knockback_damage": 6,
+					"knockback_damage": 0,
 					"knockback_strength": 3,
 					"knockback_range": 4,
 					"knockback_filters": {},
@@ -48,6 +62,13 @@
 				"add": {
 					"component_groups": [
 						"parkour_dispawn"
+					]
+				}
+			},
+			"parkour:high_knock":{
+				"add": {
+					"component_groups": [
+						"parkour_high"
 					]
 				}
 			}
