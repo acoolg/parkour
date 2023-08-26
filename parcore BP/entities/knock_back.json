@@ -10,7 +10,7 @@
 		"component_groups": {
 			"parkour_high": {
                 "minecraft:behavior.knockback_roar": {
-					"attack_time": 0,
+					"attack_time": 0.5,
 					"cooldown_time": 0,
 					"duration": 1,
 					"knockback_damage": 0,
@@ -27,7 +27,7 @@
 				"minecraft:behavior.knockback_roar": {
 					"priority": 1,
 					"duration": 1,
-					"attack_time": 0,
+					"attack_time": 0.5,
 					"knockback_damage": 0,
 					"knockback_strength": 3,
 					"knockback_range": 4,
