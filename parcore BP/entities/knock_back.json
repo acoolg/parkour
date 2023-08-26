@@ -17,7 +17,6 @@
 					"knockback_horizontal_strength": 4,
 					"knockback_range": 4,
 					"knockback_vertical_strength": 7,
-					"track_target": false,
 					"knockback_height_cap": 9,
 					"on_roar_end": "parkour:end_knock"
 				}
