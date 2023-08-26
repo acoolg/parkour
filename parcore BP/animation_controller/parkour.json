@@ -1,0 +1,33 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.climb_check": {
+            "states": {
+                "default": {
+                    "on_entry": [
+                        "/scoreboard players set @s eyeblock 0",
+                        "/scoreboard players set @s feetair 0",
+                        "/scoreboard players set @s feetblock 0",
+                        "/scoreboard players set @s feetfence 0",
+                        "/scoreboard players set @s hitwall 0"
+                    ],
+                    "transitions": [
+                        {
+                            "run_command": "q.is_jumping"
+                        }
+                    ]
+                },
+                "run_command": {
+                    "on_entry": [
+                        "/execute as @s at @s[scores={feetfence=1}] run function climb_ledge"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!q.is_jumping"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
